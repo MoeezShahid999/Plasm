@@ -35,7 +35,8 @@ export const KSWAP: { [chainId in ChainId]: Token } = {
   [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, KSWAP_ADDRESS, 18, 'KSWAP', 'Kimchiswap'),
   [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, KSWAP_ADDRESS, 18, 'KSWAP', 'Kimchiswap'),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, KSWAP_ADDRESS, 18, 'KSWAP', 'Kimchiswap'),
-  [ChainId.KOVAN]: new Token(ChainId.KOVAN, KSWAP_ADDRESS, 18, 'KSWAP', 'Kimchiswap')
+  [ChainId.KOVAN]: new Token(ChainId.KOVAN, KSWAP_ADDRESS, 18, 'KSWAP', 'Kimchiswap'),
+  [ChainId.PLASM]: new Token(ChainId.PLASM, KSWAP_ADDRESS, 18, 'KSWAP', 'Kimchiswap')
 }
 
 export const COMMON_CONTRACT_NAMES: { [address: string]: string } = {
@@ -54,7 +55,8 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.ROPSTEN]: [WETH[ChainId.ROPSTEN]],
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
-  [ChainId.KOVAN]: [WETH[ChainId.KOVAN]]
+  [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
+  [ChainId.PLASM]: [WETH[ChainId.PLASM]]
 }
 
 // used to construct intermediary pairs for trading
