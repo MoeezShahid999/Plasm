@@ -1,3 +1,0 @@
-# KWIKSWAP
-
-`yarn && yarn start`
